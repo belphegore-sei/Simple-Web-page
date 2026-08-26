@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="p5">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAKE YOUR HEART</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:wght@400;600&family=Orbitron:wght@700&family=Oswald:wght@500;700&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <h1 class="banner">TAKE YOUR HEART</h1>
+        <p class="subtitle">PHANTOM THIEVES OF HEARTS</p>
+      </div>
+      <div class="date-chip">
+        <strong>08/26 WED</strong>
+        <span>AFTER SCHOOL / CLEAR</span>
+      </div>
+    </header>
+    <section class="layout">
+      <nav class="menu" aria-label="Command menu">
+        <button type="button" data-panel="status">STATUS</button>
+        <button type="button" data-panel="persona">PERSONA</button>
+        <button type="button" data-panel="skill">SKILL</button>
+        <button type="button" data-panel="item">ITEM</button>
+        <button type="button" data-panel="equip">EQUIP</button>
+        <button type="button" data-panel="system">SYSTEM</button>
+      </nav>
+      <div class="panel">
+        <section class="view" id="status">
+          <h2>STATUS</h2>
+          <div class="grid cards">
+            <article class="stat"><h3>KNOWLEDGE</h3><p>RANK 4</p><p class="meta">DISTINGUISHED</p><div class="bar"><span style="width:40%"></span></div></article>
+            <article class="stat"><h3>CHARM</h3><p>RANK 3</p><p class="meta">SUAVE</p><div class="bar"><span style="width:30%"></span></div></article>
+            <article class="stat"><h3>GUTS</h3><p>RANK 5</p><p class="meta">BOLD</p><div class="bar"><span style="width:50%"></span></div></article>
+            <article class="stat"><h3>KINDNESS</h3><p>RANK 2</p><p class="meta">CONSIDERATE</p><div class="bar"><span style="width:20%"></span></div></article>
+            <article class="stat"><h3>PROFICIENCY</h3><p>RANK 3</p><p class="meta">DEFT</p><div class="bar"><span style="width:30%"></span></div></article>
+          </div>
+          <p class="cta">I AM THOU, THOU ART I</p>
+        </section>
+        <section class="view hidden" id="persona">
+          <h2>PERSONA</h2>
+          <div class="grid cards">
+            <article class="card"><h3>JOKER</h3><p>ARSENE</p><p class="meta">FOOL / HP 412 / SP 287</p><div class="bar"><span style="width:82%"></span></div></article>
+            <article class="card"><h3>SKULL</h3><p>CAPTAIN KIDD</p><p class="meta">CHARIOT / HP 398 / SP 164</p><div class="bar"><span style="width:79%"></span></div></article>
+            <article class="card"><h3>PANTHER</h3><p>CARMEN</p><p class="meta">LOVERS / HP 321 / SP 241</p><div class="bar"><span style="width:64%"></span></div></article>
+            <article class="card"><h3>MONA</h3><p>ZORRO</p><p class="meta">MAGICIAN / HP 276 / SP 198</p><div class="bar"><span style="width:55%"></span></div></article>
+          </div>
+        </section>
+        <section class="view hidden" id="skill">
+          <h2>CONFIDANTS</h2>
+          <div class="grid">
+            <article class="row"><h3>PRIESTESS</h3><p>MAKOTO — RANK 8</p><p class="meta">SHUJIN ACADEMY</p></article>
+            <article class="row"><h3>EMPRESS</h3><p>HARU — RANK 6</p><p class="meta">SCHOOL ROOFTOP</p></article>
+            <article class="row"><h3>EMPEROR</h3><p>YUSUKE — RANK 7</p><p class="meta">KANDA CHURCH</p></article>
+            <article class="row"><h3>HIEROPHANT</h3><p>SOJIRO — RANK 9</p><p class="meta">CAFE LEBLANC</p></article>
+            <article class="row"><h3>JUSTICE</h3><p>GORO — RANK 5</p><p class="meta">KICHIOJI</p></article>
+            <article class="row"><h3>DEATH</h3><p>TAE — RANK 10</p><p class="meta">TAKEMI CLINIC</p></article>
+          </div>
+        </section>
+        <section class="view hidden" id="item">
+          <h2>ITEM</h2>
+          <div class="grid">
+            <article class="row"><h3>RECOVERY</h3><p>LIFE STONE x6 / SOUL DROP x4 / HIRANYA x2</p></article>
+            <article class="row"><h3>BATTLE</h3><p>MOLOTOV x3 / FREEZE SPRAY x2 / PHYSICAL OINTMENT x1</p></article>
+            <article class="row"><h3>KEY</h3><p>CALLING CARD / INFILTRATION TOOLS / METRO PASS</p></article>
+          </div>
+        </section>
+        <section class="view hidden" id="equip">
+          <h2>EQUIP</h2>
+          <div class="grid">
+            <article class="row"><h3>WEAPON</h3><p>REBEL KNIFE / GRAPPLING HOOK</p></article>
+            <article class="row"><h3>ARMOR</h3><p>PHANTOM SUIT / DARK COAT</p></article>
+            <article class="row"><h3>ACCESSORY</h3><p>REBELLION CHARM / LUCK RING</p></article>
+          </div>
+        </section>
+        <section class="view hidden" id="system">
+          <h2>SYSTEM</h2>
+          <div class="log">
+            <p>THE WILL OF REBELLION STILL BURNS.</p>
+            <p>A PALACE DISTORTION WAS DETECTED IN SHIBUYA.</p>
+            <p>CONFIDANT RANKS CAN BE RAISED AFTER SCHOOL.</p>
+            <p>TAKE YOUR TIME. CHANGE YOUR HEART.</p>
+          </div>
+        </section>
+      </div>
+    </section>
+    <footer class="footer">
+      <span>KEYS 1-6 SWITCH MENUS</span>
+      <a class="theme-switch" href="#" id="themeToggle">SWITCH TO P3 RELOAD</a>
+    </footer>
+  </main>
+  <script src="js/app.js"></script>
+  <script>
+    const root = document.documentElement;
+    const toggle = document.getElementById("themeToggle");
+    toggle.addEventListener("click", (event) => {
+      event.preventDefault();
+      const next = root.getAttribute("data-theme") === "p5" ? "p3" : "p5";
+      root.setAttribute("data-theme", next);
+      document.querySelector(".banner").textContent = next === "p3" ? "DARK HOUR" : "TAKE YOUR HEART";
+      document.querySelector(".subtitle").textContent = next === "p3"
+        ? "SPECIALIZED EXTRACURRICULAR EXECUTION SQUAD"
+        : "PHANTOM THIEVES OF HEARTS";
+      document.querySelector(".cta").textContent = next === "p3"
+        ? "THE TIME FOR ACTION IS NOW"
+        : "I AM THOU, THOU ART I";
+      toggle.textContent = next === "p3" ? "SWITCH TO P5 ROYAL" : "SWITCH TO P3 RELOAD";
+    });
+  </script>
+</body>
+</html>
